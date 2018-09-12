@@ -15,7 +15,7 @@ description: >-
 | ; or \# for comments | `# for comments` |
 | NO hints | type hintsnaming hintsquick docs |
 |  |  |
-|  |  |
+| CONS: no code at all can be executed | CONS: malitious code can be executed |
 |  |  |
 
 Python config used in some Python projects, i.e. Flask-based projects: 
