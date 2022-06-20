@@ -8,25 +8,26 @@ description: >-
 
 
 
-| Text-based                           | Python                                                |
-| ------------------------------------ | ----------------------------------------------------- |
-| \[Sections]                          | May use classes for sections directly                 |
-| var=value                            | `var=value`                                           |
-| ; or # for comments                  | `# for comments`                                      |
-| NO hints                             | <p>type hints</p><p>naming hints</p><p>quick docs</p> |
-|                                      |                                                       |
-| CONS: no code at all can be executed | CONS: malitious code can be executed                  |
-|                                      |                                                       |
+| Text-based | Python |
+| :--- | :--- |
+| \[Sections\] | May use classes for sections directly |
+| var=value | `var=value` |
+| ; or \# for comments | `# for comments` |
+| NO hints | type hintsnaming hintsquick docs |
+|  |  |
+| CONS: no code at all can be executed | CONS: malitious code can be executed |
+|  |  |
 
-Python config used in some Python projects, i.e. Flask-based projects:&#x20;
+Python config used in some Python projects, i.e. Flask-based projects: 
 
-```
+```text
 Config example from https://medium.freecodecamp.org/structuring-a-flask-restplus-web-service-for-production-builds-c2ec676de563
 ```
 
 
 
-{% code title="config.py" %}
+{% code-tabs %}
+{% code-tabs-item title="config.py" %}
 ```python
 """
 Config example from 
@@ -65,12 +66,15 @@ class ProductionConfig(Config):
     # uncomment the line below to use postgres
     # SQLALCHEMY_DATABASE_URI = postgres_local_base
 ```
-{% endcode %}
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
-\
-\
+  
+  
 
 
-\
+  
+
+
 
 
